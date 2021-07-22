@@ -120,16 +120,12 @@ if __name__ == "__main__":
     choice = 0
     while choice != 4:
         print("=== Database Menu ===")
-        print("0 run this the verry first time you use this code")
         print("1 show all data")
         print("2 add Data")
         print("3 random Data")
         print("4 custom commands")
         print("5 Quit")
         choice = int(input("Please enter your choice : "))
-        if choice == 0:
-            createDatabase(DB_NAME)
-            createTable(DB_NAME)
         if choice == 1:
             all(DB_NAME, DB_TABLE)
         elif choice == 2:
