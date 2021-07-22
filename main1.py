@@ -51,7 +51,6 @@ def all(DB_NAME, DB_TABLE):
 def insertData(db_name, DB_TABLE):
     f = open("num.txt", "r")
     num = f.read()
-    print(num)
     f.close()
     spanish = str(input("enter the new spanish word:")) 
     english = str(input("enter the new english word:"))
